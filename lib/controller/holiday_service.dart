@@ -30,12 +30,12 @@ class HolidayService {
   static const _boxName = 'holidaysBox';
 
   /// 🔑 API key
-  static const _apiKey = "wKVY2QSGzcPjjbl2UsKuIBPNzlA3iDVv";
+  static const _apiKey = "add_your_API_key";
 
   static Future<List<Holiday>> fetchBangladeshHolidays(int year) async {
     try {
       final url = Uri.parse(
-          "https://calendarific.com/api/v2/holidays?api_key=$_apiKey&country=BD&year=$year");
+          "add_your_API_link");
 
       print("🌍 Fetching: $url");
 
